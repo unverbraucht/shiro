@@ -34,7 +34,7 @@ import java.security.SecureRandom;
  */
 public class SecureRandomNumberGenerator implements RandomNumberGenerator {
 
-    protected static final int DEFAULT_NEXT_BYTES_SIZE = 16; //16 bytes == 128 bits (a common number in crypto)
+    public static final int DEFAULT_NEXT_BYTES_SIZE = 16; //16 bytes == 128 bits (a common number in crypto)
 
     private int defaultNextBytesSize;
     private SecureRandom secureRandom;
